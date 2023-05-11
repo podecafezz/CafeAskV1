@@ -1,0 +1,37 @@
+<%- include('./partials/header.ejs') %>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+  <div class="resumo_body">
+  <h1 class="title_resumo">Bem-vindo ao CafeAsk!
+    <img class="welcome_resume"src="/img/smiling.png">
+  </h1>
+    <div class="container-fluid">
+      <p class="text_resume" >A página permite que os usuários façam perguntas sobre diversos assuntos e recebam respostas de outros usuários, com o objetivo de compartilhar conhecimento. É importante verificar se a pergunta já foi feita anteriormente antes de postá-la e, ao fazê-la, fornecer detalhes suficientes e escolher tags apropriadas. Ao responder uma pergunta, é importante ser claro, conciso, educado e respeitoso com o autor da pergunta e outros usuários.
+      </p> 
+    </div>
+  </div>
+<div class="list_ask">
+  <div class="container">
+    <hr class="border-0">
+    <h1>Faça uma pergunta!</h1>
+    <hr class="border-0">
+    <a href="/perguntar" class="btn btn-dark">Perguntar</a>
+    <hr class="border-0">
+    <% perguntas.forEach(pergunta => {%>
+      <br>
+    <div class="card btn-dark">
+      <div class="card-body btn-dark">
+        <h3><%= pergunta.titulo %></h3>
+      </div>
+      <div class="card-footer">
+        <a href="/pergunta/<%= pergunta.id %>"><button class="btn btn-dark"> Responder</button></a>
+      </div>
+    </div>
+     <% }) %>
+  </div> 
+
+</div>
+</body>
+<%- include('./partials/footer.ejs') %>
+
+</html>

@@ -1,0 +1,43 @@
+body {
+  background-color: #023047;
+  }
+/* .image-navbar{
+  width: 25%;
+  height: 25%;
+} */
+
+#formulario-pergunta{
+  margin-top: 5vh;
+}
+.resumo_body{
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+.list_ask{
+  color: white;
+}
+
+.text_resume{
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-right: 25px;
+}
+
+.card-footer{
+  background-color: #023047;
+}
+/* .slide-in {
+  transform: translateX(-100%);
+} */
+
+.welcome_resume{
+  height: 16px;
+  width: 16px;
+}
+.title_resumo{
+  padding: 40px;
+}
