@@ -3,4 +3,3 @@ Este projeto é um dos projetos que eu estava desenvolvendo no curso  "Formaçã
 
 ![Karanalpe Status](https://github-readme-stats.vercel.app/api?username=podecafezz&show_icons=true)
 
-[![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=podecafezz/CafeAskV1&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
